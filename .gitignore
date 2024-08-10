@@ -1,0 +1,5 @@
+# The following list is not tracked by Git
+.env
+.venv
+.idea/
+
