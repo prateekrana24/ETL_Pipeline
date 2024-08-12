@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS daily_returns;
+
 CREATE TABLE daily_returns AS
 SELECT
     DATE(datetime) AS date,

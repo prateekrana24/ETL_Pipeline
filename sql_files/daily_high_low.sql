@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS daily_high_low;
+
+CREATE TABLE daily_high_low AS
+
 SELECT
     DATE(datetime) AS date,
     MAX(high) AS daily_high,
