@@ -214,6 +214,16 @@ class TeslaDatabase:
         # Ensure the DataFrame has the desired columns
         self.df = self.df[['Datetime', 'Open', 'High', 'Low', 'Close', 'Volume']]
 
+        # Assign data types to the columns
+        self.df = self.df.astype({
+            'Datetime': 'datetime64[ns]',
+            'Open': 'float64',
+            'High': 'float64',
+            'Low': 'float64',
+            'Close': 'float64',
+            'Volume': 'int64'
+        })
+
         # Save the organized DataFrame to a CSV file
         self.df.to_csv('tsla_daily_from_current_year_data.csv')
 
