@@ -14,6 +14,8 @@ and loads it into a MySQL database. It also includes functionalities to visualiz
 - **Data Visualization**: Generates high-low stock price plots for a specified date using Matplotlib.
 - **Logging**: Implements logging for tracking operations and debugging.
 
+**Main Skills Used**: Object Oriented Programming (OOP), Pandas, Matplotlib, Decorators, Rest APIs
+
 ## Requirements
 
 - Python 3.x
