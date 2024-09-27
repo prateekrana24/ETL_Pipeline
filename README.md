@@ -7,7 +7,7 @@ This project leverages modern Java features and best practices to provide a seam
 ## Features
 - **Data Extraction**: Retrieves stock data from an external API in JSON format.
 - **Data Transformation**: Parses and processes the JSON response to extract relevant stock information.
-- **Data Loading**: Inserts the transformed data into a MySQL database, handling duplicates with an "ON DUPLICATE KEY UPDATE" strategy.
+- **Data Loading**: Inserts the transformed data into a MySQL database.
 - **Error Handling**: Implements error handling to ensure smooth execution and debugging of data operations.
 - **Stream and Lambda Support**: Utilizes Java Streams and Lambdas for concise and efficient data processing.
 
