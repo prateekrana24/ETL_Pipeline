@@ -1,4 +1,4 @@
-# Python ETL Pipeline for Tesla Stock Data
+# Python ETL Pipeline
 
 ## Overview
 
